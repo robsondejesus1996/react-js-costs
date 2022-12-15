@@ -1,11 +1,10 @@
-import "./App.css";
 import Footer from "./components/Footer";
 
 
 function App() {
   return (
     <>
-    <h1>Olá, plataforma Costs em desenvolvimento...</h1>
+    <h1>Costs</h1>
     <Footer/>
     </>
   );
