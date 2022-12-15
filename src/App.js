@@ -1,12 +1,13 @@
-import './App.css';
+import "./App.css";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div className="App">
-
-      <h1>Olá, plataforma Costs em desenvolvimento...</h1>
-      
-    </div>
+    <>
+    <h1>Olá, plataforma Costs em desenvolvimento...</h1>
+    <Footer/>
+    </>
   );
 }
 
