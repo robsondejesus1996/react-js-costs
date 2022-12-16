@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div>
+    <footer className={styles.footer}>
       <ul className={styles.social_list}>
         <li>
           <FaFacebook />
@@ -12,12 +12,13 @@ function Footer() {
           <FaInstagram />
         </li>
         <li>
-            <FaLinkedin/>
+          <FaLinkedin />
         </li>
       </ul>
-
-      <p>Nosso rodapé</p>
-    </div>
+      <p className={styles.copy_right}>
+        <span>Costs</span> &copy; 2022
+      </p>
+    </footer>
   );
 }
 
