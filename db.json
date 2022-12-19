@@ -1,5 +1,39 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name": "ewr",
+      "budget": "324234",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "sad",
+      "budget": "3213",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Desenvolvimento Blockchain ",
+      "budget": "233333",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
   "categories": [
     {
       "id": 1,
